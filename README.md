@@ -1,2 +1,2 @@
 # Interview_Bot
-This repo hosts the code to help interviewer in taking interviews.
+An AI-powered system that helps interviewers generate domain-specific questions.
