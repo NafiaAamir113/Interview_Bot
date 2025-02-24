@@ -2,8 +2,6 @@ import streamlit as st
 from together import Together
 import os
 
-import os
-
 # Load API key from Streamlit secrets
 TOGETHER_API_KEY = st.secrets["TOGETHER_API_KEY"]
 client = Together(api_key=TOGETHER_API_KEY)
