@@ -11,7 +11,7 @@ def generate_questions(domain):
     """Generates industry-standard interview questions for the given job role."""
     messages = [
         {"role": "system", "content": "You are an expert in conducting interviews."},
-        {"role": "user", "content": f"Generate a list of 7 industry-standard interview questions for a {domain} position."}
+        {"role": "user", "content": f"Generate a list of 5 industry-standard interview questions for a {domain} position."}
     ]
 
     response = client.chat.completions.create(
